@@ -87,8 +87,9 @@ class CaregiverDashboard extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              //Navigate to memory brief
-            }
+              // Navigate to Memory Brief
+            },
+            child: const Text('Memory Brief'),
           )
         ],
       ),
