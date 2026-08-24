@@ -85,6 +85,17 @@ class CaregiverDashboard extends StatelessWidget {
             ),
             onPressed: () => _openGroundedAskAi(context),
           ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const memorybrief(
+                    child: Text('Memory Brief Page'),
+                  ),
+                ),
+              );
+            }
+          )
         ],
       ),
     );
