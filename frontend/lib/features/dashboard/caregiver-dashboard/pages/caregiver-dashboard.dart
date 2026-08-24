@@ -87,13 +87,7 @@ class CaregiverDashboard extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => const memorybrief(
-                    child: Text('Memory Brief Page'),
-                  ),
-                ),
-              );
+              //Navigate to memory brief
             }
           )
         ],
